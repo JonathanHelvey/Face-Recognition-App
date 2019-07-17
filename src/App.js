@@ -12,6 +12,7 @@ import FaceRecognition from "./components/faceRecognition/faceRecognition";
 import Signin from "./components/Signin/Signin";
 import Register from "./components/register/register.js";
 
+//particles
 const particlesOptions = {
   particles: {
     number: {
@@ -77,11 +78,13 @@ class App extends Component {
     };
   };
 
+  //blue Box
   displayFaceBox = box => {
     console.log(box);
     this.setState({ box: box });
   };
 
+  //Input Box
   onInputChange = event => {
     this.setState({ input: event.target.value });
   };
