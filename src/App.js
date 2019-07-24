@@ -128,7 +128,7 @@ class App extends Component {
       .predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
       .then(response => {
         if (response) {
-          fetch(" https://guarded-wave-42693.herokuapp.com/image", {
+          fetch("https://guarded-wave-42693.herokuapp.com/image", {
             method: "put",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
