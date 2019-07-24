@@ -7,7 +7,7 @@ import "./App.css";
 import "tachyons";
 import Clarifai from "clarifai";
 import Particles from "react-particles-js";
-import { APIkey } from "./secrets";
+import { APIkey } from "./Secrets";
 import FaceRecognition from "./components/faceRecognition/faceRecognition";
 import Signin from "./components/Signin/Signin";
 import Register from "./components/register/register.js";
