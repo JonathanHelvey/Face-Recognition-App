@@ -52,6 +52,21 @@ const app = new Clarifai.App({
   apiKey: APIkey
 });
 
+const initialState = {
+  input: "",
+  imageUrl: "",
+  box: {},
+  route: "signin",
+  isSignedIn: false,
+  user: {
+    id: "",
+    name: "",
+    email: "",
+    entries: 0,
+    joined: ""
+  }
+};
+
 class App extends Component {
   constructor() {
     super();
@@ -113,7 +128,7 @@ class App extends Component {
       .predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
       .then(response => {
         if (response) {
-          fetch("http://localhost:3000/image", {
+          fetch(" https://guarded-wave-42693.herokuapp.com/image", {
             method: "put",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -125,7 +140,8 @@ class App extends Component {
               this.setState({
                 user: { ...this.state.user, entries: count.entries }
               });
-            });
+            })
+            .catch(err => console.log(err));
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
