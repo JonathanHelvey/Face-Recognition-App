@@ -114,7 +114,6 @@ class App extends Component {
 
   //blue Box
   displayFaceBox = box => {
-    console.log(box);
     this.setState({ box: box });
   };
 
