@@ -28,3 +28,6 @@ Udemy Course by Andrei Neagoi. "The Complete Web Developer Course 2019"
 -tachyons (stying)
 -bcrypt (password encryption)
 ```
+# Demo
+
+<img src="smartbrain.gif" data-canonical-src="smartbrain.gif" width="800" height="600" />
