@@ -1,5 +1,6 @@
 Backend GIT HUB repository == https://github.com/JonathanHelvey/Face-Recognition-App-backend
 
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,8 +12,19 @@ Opend Back End Directory and Run PORT=3000 or whatever port number you desire to
 
 ### `PORT=3000 npm start`
 
-Clarify API
+## INFO
+Udemy Course by Andrei Neagoi. "The Complete Web Developer Course 2019"
 
-Database PostgreSQL
+## Tech Used
 
-
+```
+-React
+-React Particles
+-React-Dom
+-Clarify API
+-knex.js
+-express.js
+-Database PostgreSQL
+-tachyons (stying)
+-bcrypt (password encryption)
+```
