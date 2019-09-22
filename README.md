@@ -1,4 +1,6 @@
-Backend GIT HUB repository == https://github.com/JonathanHelvey/Face-Recognition-App-backend
+https://smarts-brain-face-recognition.herokuapp.com/
+
+Check Out Backend GIT HUB repository == https://github.com/JonathanHelvey/Face-Recognition-App-backend
 
 
 ## Available Scripts
