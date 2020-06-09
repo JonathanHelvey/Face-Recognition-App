@@ -34,3 +34,13 @@ Udemy Course by Andrei Neagoi. "The Complete Web Developer Course 2019".  Learni
 # Demo
 
 <img src="smartbrain.gif" data-canonical-src="smartbrain.gif" width="800" height="600" />
+
+# Credit 
+
+Udemy Course: Certificate. "Complete Web Developer of 2020: From Zero to Mastery" 
+Teacher: Andrie Nieogie.
+
+# To Log On With Test Account 
+
+UserName: test@test.com
+PassWord: test
